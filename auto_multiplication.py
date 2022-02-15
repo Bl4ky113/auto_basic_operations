@@ -50,11 +50,11 @@ def multiplication_process (mult_1="", mult_2=""):
     return results_obj
 
 if __name__ == "__main__":
-    # num_mult_1 = str(randint(10 ** 2, 10 ** 3))
-    # num_mult_2 = str(randint(10 ** 2, 10 ** 3))
+    num_mult_1 = str(randint(10 ** 3, 10 ** 4))
+    num_mult_2 = str(randint(10 ** 3, 10 ** 4))
 
-    num_mult_1 = "12345"
-    num_mult_2 = "12345"
+    # num_mult_1 = "1111"
+    # num_mult_2 = "1111"
 
     results = multiplication_process(num_mult_1, num_mult_2)
 

@@ -30,12 +30,9 @@ def sum_process (sums_arr=[]):
         for j in range(len(results_arr)):
             result = str((int(results_arr[j][-1:]) + int(nums_arr[i][j])) + int(residue))
 
-            print(f"{results_arr[j][-1:]} + {nums_arr[i][j]} + {residue} = {result}")
-
             if int(result) > 9:
                 residue = result[:-1]
                 residue_result[j] = str(int(residue_result[j]) + int(residue))
-                print(residue_result)
             else:
                 residue = "0"
 
