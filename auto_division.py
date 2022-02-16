@@ -37,11 +37,11 @@ def division_process (num_1="", num_2="", max_decimals=4):
     return results_obj
 
 if __name__ == "__main__":
-    # num_div_1 = str(randint(10 ** 7, 10 ** 8))
-    # num_div_2 = str(randint(1, 10))
+    num_div_1 = str(randint(10 ** 7, 10 ** 8))
+    num_div_2 = str(randint(2, 9))
 
-    num_div_1 = "81274572"
-    num_div_2 = "9"
+    # num_div_1 = "81274572"
+    # num_div_2 = "9"
 
     results = division_process(num_div_1, num_div_2)
 
